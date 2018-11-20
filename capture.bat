@@ -1,0 +1,1 @@
+"c:\Program Files\VideoLAN\VLC\vlc.exe" screen:// :screen-fps=15 :screen-follow-mouse :screen-mouse-image="D:\Users\tjaisson\Videos\Moodle\mps.png" :sout="#transcode{vcodec=h264,venc=x264{scenecut=100,bframes=0,keyint=10}, vb=1024,acodec=none,scale=1.0, vfilter=croppadd{cropleft=0,croptop=0,cropright=0,cropbottom=0}} :std{access=file,dst=D:\Users\tjaisson\Videos\Moodle\cap.mp4}"
